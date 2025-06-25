@@ -558,88 +558,45 @@ video {
   position: relative;
 }
 
-.top-3 {
-  top: 0.75rem;
-}
-
-.top-\[-10px\] {
-  top: -10px;
-}
-
-.top-\[-20px\] {
-  top: -20px;
-}
-
-.top-\[-30px\] {
-  top: -30px;
+.left-\[10px\] {
+  left: 10px;
 }
 
 .top-\[-40px\] {
   top: -40px;
 }
 
-.left-\[-\] {
-  left: -;
-}
-
-.left-\[-20px\] {
-  left: -20px;
-}
-
-.left-\[20px\] {
-  left: 20px;
-}
-
-.left-\[10px\] {
-  left: 10px;
-}
-
 .m-auto {
   margin: auto;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mt-\[20px\] {
-  margin-top: 20px;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .ml-10 {
   margin-left: 2.5rem;
 }
 
-.ml-\[20p\] {
-  margin-left: 20p;
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .ml-\[20px\] {
   margin-left: 20px;
 }
 
-.ml-\[40px\] {
-  margin-left: 40px;
-}
-
 .ml-\[80px\] {
   margin-left: 80px;
 }
 
-.ml-\[160px\] {
-  margin-left: 160px;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-\[10\] {
-  margin-left: 10;
-}
-
-.mt-\[50px_\] {
-  margin-top: 50px;
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
 .mt-\[50px_0px\] {
@@ -658,8 +615,44 @@ video {
   display: none;
 }
 
-.w-\[80\%\] {
-  width: 80%;
+.w-\[60px\`\] {
+  width: 60px`;
+}
+
+.w-\[60px\] {
+  width: 60px;
+}
+
+.w-\[60\] {
+  width: 60;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .max-w-\[1200px\] {
@@ -682,39 +675,24 @@ video {
   justify-content: space-around;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-\[10px\] {
   border-radius: 10px;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
-.rounded-\[1\] {
-  border-radius: 1;
-}
-
-.rounded-b-lg {
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
-.rounded-b-\[50px\] {
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
-
-.rounded-b-\[530px\] {
-  border-bottom-right-radius: 530px;
-  border-bottom-left-radius: 530px;
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .rounded-b-\[20px\] {
@@ -732,16 +710,6 @@ video {
   background-color: rgb(143 126 220 / var(--tw-bg-opacity, 1));
 }
 
-.bg-violet-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(76 29 149 / var(--tw-bg-opacity, 1));
-}
-
-.bg-violet-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(91 33 182 / var(--tw-bg-opacity, 1));
-}
-
 .bg-\[\#a27ec7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(162 126 199 / var(--tw-bg-opacity, 1));
@@ -752,6 +720,16 @@ video {
   background-color: rgb(124 58 237 / var(--tw-bg-opacity, 1));
 }
 
+.bg-violet-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(91 33 182 / var(--tw-bg-opacity, 1));
+}
+
+.bg-violet-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 29 149 / var(--tw-bg-opacity, 1));
+}
+
 .p-\[10px\] {
   padding: 10px;
 }
@@ -760,39 +738,11 @@ video {
   padding: 12px;
 }
 
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[16\] {
-  padding: 16;
-}
-
-.p-\[16\.5\] {
-  padding: 16.5;
-}
-
-.p-\[16\.5px\] {
-  padding: 16.5px;
-}
-
-.p-\[16\.5px_\] {
-  padding: 16.5px;
-}
-
 .p-\[16\.5px_25px\] {
   padding: 16.5px 25px;
 }
 
-.p-\[20\] {
-  padding: 20;
-}
-
 .p-\[20px\] {
-  padding: 20px;
-}
-
-.p-\[20px_\] {
   padding: 20px;
 }
 
@@ -804,12 +754,13 @@ video {
   padding: 20px 28px;
 }
 
-.p-\[20px_0px\] {
-  padding: 20px 0px;
-}
-
 .p-\[50px_0px\] {
   padding: 50px 0px;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .pt-\[20px\] {
@@ -824,12 +775,12 @@ video {
   text-align: end;
 }
 
-.text-\[48px\] {
-  font-size: 48px;
-}
-
 .text-\[18px\] {
   font-size: 18px;
+}
+
+.text-\[48px\] {
+  font-size: 48px;
 }
 
 .font-medium {
@@ -845,14 +796,6 @@ video {
   color: ;
 }
 
-.text-\[48\] {
-  color: 48;
-}
-
-.text-\[48p\] {
-  color: 48p;
-}
-
 @media (max-width: 510px) {
   .mx\:block {
     display: block;
@@ -860,10 +803,6 @@ video {
 
   .mx\:hidden {
     display: none;
-  }
-
-  .mx\:flex-col {
-    flex-direction: column;
   }
 
   .mx\:flex-col-reverse {
